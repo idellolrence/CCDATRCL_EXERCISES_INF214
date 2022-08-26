@@ -13,6 +13,8 @@ public class Character {
         intelligence = intel;
         name = CharName;
     }
+    
+    // Methods
 
     public void sayMyName() {
         System.out.println("\nMy Name is " +name);
