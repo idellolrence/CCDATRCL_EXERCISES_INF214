@@ -21,13 +21,15 @@ public class App {
 
         // 3. Add a new song at the front of the Playlist using the addFirst() method
         // 4. Add a new song at the end of the Playlist using the addLast() method
-        System.out.println("\nWe have new songs coming in to our first and last slots brought to you by our listeners.\n");
+        System.out.println("\nWe have new songs coming in to our first and last slots brought to you by our listeners.");
 
         AhebPlaylist.addFirst("Tama Ka/Ligaya");
         AhebPlaylist.addLast("Ang Huling El Bimbo");
+        
+        System.out.println(AhebPlaylist);
 
         // 5. Display the song at the front of the Playlist using the combination of get() method and the println() method
-        System.out.print("For our first song, let's have ");
+        System.out.print("\nFor our first song, let's have ");
         System.out.println(AhebPlaylist.get(0));
 
         // 6. Replace the last song using the set() method
