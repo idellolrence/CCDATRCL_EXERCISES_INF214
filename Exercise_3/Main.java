@@ -4,7 +4,7 @@ public class Main {
         //Creating Stack Object
         Stack burger = new Stack(5);
         
-        System.out.println("Customized your burger by stacking!\n");
+        System.out.println("Customize your burger by stacking!\n");
         
         //Customize your burger
         burger.push("Bottom Bun");
