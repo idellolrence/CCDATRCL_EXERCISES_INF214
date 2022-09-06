@@ -6,7 +6,7 @@ public class Main {
         
         System.out.println("Customized your burger by stacking!\n");
         
-        //Customized your burger
+        //Customize your burger
         burger.push("Bottom Bun");
         burger.push("Beef Patty");
         burger.push("Barbeque Sauce");
