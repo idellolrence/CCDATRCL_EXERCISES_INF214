@@ -19,7 +19,8 @@ public class Stack {
                 System.exit(1);
             }
     
-            System.out.println("Inserting " + data);
+            System.out.print("Inserting " + data);
+            System.out.println("...");
             arr[++top] = data;
         }
     
