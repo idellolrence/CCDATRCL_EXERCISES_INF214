@@ -10,11 +10,13 @@ public class Main
 		System.out.println("======== INF214-CCDATRCL Enrollment List ========");
 		
 		//Enqueue 5 of your classmates in this section
-		enrollmentList.add("Idel Lawrence Aranilla Pogi");
 		enrollmentList.add("Justine Nica Abella");
 		enrollmentList.add("Ronn Adia");
 		enrollmentList.add("Winna Jane Babilis");
+		enrollmentList.add("Christian Moses Bantegui");
 		enrollmentList.add("Jap Bolanos");
+		
+		System.out.println("Students enrolled: \n" +enrollmentList);
 		
 		//Get the size of the queue
 		System.out.println("Number of students enrolled: " +enrollmentList.size());
@@ -36,8 +38,10 @@ public class Main
 		enrollmentList.add("Ivan Guansing");
 		enrollmentList.add("Jonnah Hermosura");
 		
+		System.out.println("\nStudents enrolled: \n" +enrollmentList);
+		
 		//Get the size of the queue
-		System.out.println("\nNumber of students enrolled: " +enrollmentList.size());
+		System.out.println("Number of students enrolled: " +enrollmentList.size());
 		
 		//Get the front of the queue
 		System.out.println("Student at the front of the queue is: " +enrollmentList.peek());
