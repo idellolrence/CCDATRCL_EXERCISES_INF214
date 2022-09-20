@@ -29,7 +29,7 @@ public class Main
 		enrollmentList.remove();
 		enrollmentList.remove();
 
-        //Enqueue another 5 of you classmates
+        	//Enqueue another 5 of you classmates
 		enrollmentList.add("Victor Vinnie Lars Calalang");
 		enrollmentList.add("Kean John Dipatillo");
 		enrollmentList.add("Alexander John Du");
